@@ -68,7 +68,7 @@ function App() {
         ))}
       </Navbar>
       <div className="container-md projects">
-        <section className="description-section border-bottom border-2">
+        <section className="description-section border-bottom border-2 px-5">
           <h1>About Me!</h1>
           <p>
             Some long-winded description, yadda yadda yadda Lorem ipsum dolor

@@ -48,3 +48,30 @@
 .project-section:last-child {
   border: none !important;
 }
+
+@media (max-width: 767px) {
+  .project-section,
+  .project-section:nth-child(2n) {
+    display: grid;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+    margin-top: 1rem;
+    gap: 1rem;
+    grid-template-columns: unset;
+    grid-template-rows: auto;
+    grid-template-areas:
+      "image"
+      "title"
+      "desc"
+      "link";
+    min-height: unset;
+  }
+
+  .project-section .pf-bg {
+    min-height: 10rem;
+  }
+
+  .project-section .pf-link {
+    flex-direction: column !important;
+  }
+}

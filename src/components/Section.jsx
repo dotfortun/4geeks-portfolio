@@ -14,7 +14,7 @@ const Project = forwardRef(function project({ data }, ref) {
   };
 
   return (
-    <section className="project-section border-bottom border-2" ref={ref}>
+    <section className="project-section border-bottom border-2 px-5" ref={ref}>
       <div
         className="pf-bg"
         style={{

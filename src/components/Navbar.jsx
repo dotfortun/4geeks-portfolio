@@ -4,7 +4,9 @@ const ProjectButton = ({ children, onClick, active }) => {
   return (
     <>
       <span
-        className={`nav-link rounded-2${active ? " active bg-secondary" : ""}`}
+        className={`pf-btn nav-link rounded-2${
+          active ? " active bg-secondary" : ""
+        }`}
         onClick={onClick}
         aria-current="page"
       >

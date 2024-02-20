@@ -2,3 +2,7 @@
   cursor: pointer;
   user-select: none;
 }
+
+.pf-navbar .pf-btn {
+  transition: background 0.5s;
+}
