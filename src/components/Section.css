@@ -1,0 +1,50 @@
+.project-section {
+  display: grid;
+  padding-top: 5rem;
+  gap: 1rem;
+  grid-template-columns: 1fr 1fr;
+  grid-template-areas:
+    "title image"
+    "desc image"
+    "link link";
+  min-height: 100dvh;
+}
+
+.project-section:nth-child(2n) {
+  grid-template-columns: 1fr 2fr;
+  grid-template-areas:
+    "image title"
+    "image desc"
+    "link link";
+}
+
+.project-section .pf-bg {
+  grid-area: image;
+  width: 100%;
+  height: 100%;
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.project-section .pf-title {
+  grid-area: title;
+}
+
+.project-section .pf-desc {
+  grid-area: desc;
+}
+
+.project-section .pf-link {
+  grid-area: link;
+  max-height: 2.5rem;
+}
+
+.project-section .pf-link img {
+  width: auto;
+  height: 1.25rem;
+}
+
+.project-section:last-child {
+  border: none !important;
+}
