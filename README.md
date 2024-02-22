@@ -1,5 +1,3 @@
 # Create A Portfolio In React
 
-## Following along
-
-Click ""
+Template repo for the seminar on Feb. 22, 2024.
